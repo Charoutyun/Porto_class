@@ -29,9 +29,9 @@ function Footer() {
 
 const socialLinks = [
   { href: "https://github.com/Charoutyun", text: "GitHub", icon: <AiFillGithub /> },
-  { href: "https://twitter.com", text: "Twitter", icon: <AiOutlineTwitter /> },
+
   { href: "https://www.linkedin.com/in/haroutyun-chamelian-0364b2289/", text: "LinkedIn", icon: <FaLinkedinIn /> },
-  { href: "https://www.instagram.com", text: "Instagram", icon: <AiFillInstagram /> },
+
 ];
 
 export default Footer;
