@@ -1,0 +1,25 @@
+.project-card {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: transparent
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-card .card-body {
+    text-align: center;
+    background-color: transparent
+  }
+  
+  .project-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }

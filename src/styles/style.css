@@ -1,0 +1,99 @@
+
+
+
+body {
+    background-image: url('../../public/image.webp');
+    background-size: cover;
+
+    
+ 
+    }
+    
+    .purple {
+      color: var(--imp-text-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Universal font color for headings */
+}
+span{
+  color: #ffffff
+}
+
+a {
+    color: #0066ff;
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* This makes sure your main container takes up at least the full height of the viewport */
+.d-flex.flex-column.vh-100 {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  /* Ensures that the main content area grows to fill the space, pushing the footer down */
+  .container.flex-fill {
+    flex: 1;
+  }
+  
+  /* Footer specific styles to ensure it stays at the bottom */
+  .footer {
+    background-color: transparent; /* Make the background invisible */
+    color: transparent; /* Keep the text color */
+    text-align: center;
+    padding: 0px 0;
+  }
+  .footer_nav{
+    background-color: #333;
+    display: flex;
+    background-color: transparent;
+    
+    
+  }
+  
+  .social-icon {
+    color: rgb(248, 236, 236);
+    margin: 0 10px;
+  }
+  
+  .social-icon:hover {
+    color: #c770f0;
+  }
+
+  
+  .social-icon {
+    display: inline-flex; /* To align icon and text properly */
+    align-items: center; /* Center align items vertically */
+    gap: 5px; /* Space between icon and text */
+  }
+  .container {
+    flex: 1;  /* This tells the container to take up all available space */
+  }
+  
+
+
+  
+.project-card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card .card-body {
+  text-align: center;
+}
+
+.project-card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.project-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
