@@ -7,15 +7,15 @@ import "react-icons/ai";
 
 const SkillsPage = () => {
   return (
-    <Container className="mt-5">
-      <Row className="mb-4">
+    <Container className="d-flex flex-column align-items-center mt-5">
+      <Row className="mb-4 w-100">
         <Col>
           <Typewriters text1="Here are my skills:" />
         </Col>
       </Row>
       <Row>
-        <Col md="4">
-          <Card className="mb-4">
+        <Col md="">
+          <Card className="mb-4 custom-card custom-card skills-card">
             <CardBody>
               <CardTitle tag="h5">
                 <i className="fa fa-code" aria-hidden="true"></i> Programming Languages
@@ -24,27 +24,30 @@ const SkillsPage = () => {
                 <Badge color="primary" className="mr-1">Java</Badge>
                 <Badge color="secondary" className="mr-1">C++</Badge>
                 <Badge color="info" className="mr-1">Python</Badge>
-                <Badge color="info" className="mr-1">Python</Badge>
               </CardText>
             </CardBody>
           </Card>
         </Col>
-        <Col md="8">
-          <Card className="mb-4">
+        <Col md="">
+          <Card className="mb-4 custom-card skills-card">
             <CardBody>
               <CardTitle tag="h5">
                 <i className="fa fa-desktop" aria-hidden="true"></i> Front-end Development
               </CardTitle>
               <CardText>
-                Experienced in HTML, CSS, JavaScript, and frameworks like React and Svelte.
+                <Badge color="warning" className="mr-1">HTML</Badge>
+                <Badge color="warning" className="mr-1">CSS</Badge>
+                <Badge color="warning" className="mr-1">JavaScript</Badge>
+                <Badge color="warning" className="mr-1">React</Badge>
+                <Badge color="warning" className="mr-1">Svelte</Badge>
               </CardText>
             </CardBody>
           </Card>
         </Col>
       </Row>
       <Row>
-        <Col md="4">
-          <Card className="mb-4">
+        <Col md="12">
+          <Card className="mb-4 custom-card skills-card">
             <CardBody>
               <CardTitle tag="h5">
                 <i className="fa fa-server" aria-hidden="true"></i> Backend Development
@@ -58,8 +61,8 @@ const SkillsPage = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col md="8">
-          <Card className="mb-4">
+        <Col md="12">
+          <Card className="mb-4 custom-card skills-card">
             <CardBody>
               <CardTitle tag="h5">
                 <i className="fa fa-wrench" aria-hidden="true"></i> Tools and Technologies
@@ -67,7 +70,6 @@ const SkillsPage = () => {
               <CardText>
                 <Badge color="warning" className="mr-1">Git</Badge>
                 <Badge color="info" className="mr-1">Docker</Badge>
-                <Badge color="primary" className="mr-1">Jenkins</Badge>
                 <Badge color="success" className="mr-1">netify</Badge>
           
               </CardText>
@@ -76,8 +78,8 @@ const SkillsPage = () => {
         </Col>
       </Row>
       <Row>
-        <Col>
-          <Card className="mb-4">
+        <Col md="">
+          <Card className="mb-4 custom-card skills-card">
             <CardBody>
               <CardTitle tag="h5">
                 <i className="fa fa-users" aria-hidden="true"></i> Soft Skills

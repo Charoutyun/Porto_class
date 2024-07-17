@@ -20,7 +20,7 @@ const ProjectsPage = () => {
     <Container className="mt-5">
       <Row className="mb-4">
         <Col>
-          <Typewriters text1="Here are my class projects:" />
+          <Typewriters text1="Here are some of my class assignments and projects:" />
         </Col>
       </Row>
       <Row>
@@ -29,7 +29,7 @@ const ProjectsPage = () => {
             <Card className="project-card shadow-sm">
               <CardBody>
                 <CardTitle tag="h5" className="text-primary font-weight-bold">{repo.name}</CardTitle>
-                <CardText>{repo.description || "No description available."}</CardText>
+                <CardText>{repo.description || ""}</CardText>
                 <Button color="primary" href={repo.html_url} target="_blank">
                   View on GitHub
                 </Button>

@@ -97,3 +97,20 @@ a {
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
+
+.skills-card {
+  background-color: #396a9b; /* Light background for programming card */
+}
+
+.skills-card {
+  border: 2px solid #000000; /* Custom border color */
+  border-radius: 15px; /* Custom border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Custom shadow */
+  transition: transform 0.2s;
+}
+
+
+.skills-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
