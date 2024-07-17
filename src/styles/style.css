@@ -107,6 +107,7 @@ a {
   border-radius: 15px; /* Custom border radius */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Custom shadow */
   transition: transform 0.2s;
+  text-align: center;
 }
 
 
