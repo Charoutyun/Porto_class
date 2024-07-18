@@ -24,6 +24,7 @@ const SkillsPage = () => {
                 <Badge color="primary" className="mr-1">Java</Badge>
                 <Badge color="secondary" className="mr-1">C++</Badge>
                 <Badge color="info" className="mr-1">Python</Badge>
+                <Badge color="danger" className="mr-1">MATLAB</Badge>
               </CardText>
             </CardBody>
           </Card>

@@ -13,11 +13,18 @@ body {
       color: var(--imp-text-color) !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* Universal font color for headings */
+h1{
+  color: #042f8c;
+  
 }
+
+ h2, h3, h4, h5, h6 {
+    color: #1774de; /* Universal font color for headings */
+}
+
 span{
   color: #ffffff
+  
 }
 
 a {
@@ -44,6 +51,7 @@ a {
     text-align: center;
     padding: 0px 0;
   }
+  
   .footer_nav{
     background-color: #333;
     display: flex;
@@ -99,7 +107,7 @@ a {
 }
 
 .skills-card {
-  background-color: #396a9b; /* Light background for programming card */
+  background-color: #effdff; /* Light background for programming card */
 }
 
 .skills-card {

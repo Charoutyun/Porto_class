@@ -11,7 +11,6 @@ function Typewriters_br({ text1, text2 }) {
           cursor
           cursorStyle='_'
           typeSpeed={80}
-          deleteSpeed={50}
           delaySpeed={1000}
         />
       </h1>
@@ -30,9 +29,8 @@ function Typewriters({ text1, text2 }) {
        words={[`${text1}`]}
        loop={1}
        cursor
-       cursorStyle='_'
+       cursorStyle='<>'
        typeSpeed={80}
-       deleteSpeed={50}
        delaySpeed={1000}
      />
      </h1>
