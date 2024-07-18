@@ -1,19 +1,20 @@
 nav {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  nav a {
-    margin: 10px;
-    padding: 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .active-link {
-    color: #0077cc;
-    border-bottom: 2px solid #0077cc;
-  }
-  
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 15px 16px rgba(8, 24, 146, 0.726); 
+}
+
+nav a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+.active-link {
+  color: #0077cc;
+  border-bottom: 2px solid #0077cc;
+}
