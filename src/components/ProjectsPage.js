@@ -28,7 +28,7 @@ const ProjectsPage = () => {
           <Col md="6" lg="4" key={repo.id} className="mb-4">
             <Card className="project-card shadow-sm">
               <CardBody>
-                <CardTitle tag="h5" className="text-primary font-weight-bold">{repo.name}</CardTitle>
+                <CardTitle tag="h5" className="text-white font-weight-bold">{repo.name}</CardTitle>
                 <CardText>{repo.description || ""}</CardText>
                 <Button color="primary" href={repo.html_url} target="_blank">
                   View on GitHub
