@@ -13,6 +13,17 @@ body {
       color: var(--imp-text-color) !important;
 }
 
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 h1{
   color: #042f8c;
   
@@ -124,3 +135,25 @@ a {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
+
+/* Chrome, Safari, and Opera */
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #3009cc; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
